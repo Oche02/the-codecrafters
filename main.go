@@ -63,6 +63,9 @@ func main() {
 		case "6":
 			fmt.Println("Thank you for using Augoboss calculator")
 			return
+		default:
+			fmt.Println("Out of range. Try again")
+			continue
 		}
 	}
 }
