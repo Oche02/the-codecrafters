@@ -29,16 +29,16 @@ func main() {
 	for {
 		start := ""
 		if start == "" {
-			fmt.Println("=== Welcome to Augoboss CLI tool converter. press any key to continue ===")
+			fmt.Println("=== Augoboss Base converter. press any key to continue ===")
 		} else {
-			fmt.Println("out of range")
+			fmt.Println("Bye")
 			return
 		}
 
 		fmt.Println(start)
 		fmt.Scanln(&start)
 
-		fmt.Println("=== Welcome to Augoboss CLI tool converter ===")
+		fmt.Println("=== Welcome to Augoboss Base converter ===")
 		fmt.Println("1. Convert hexidecimal to desimal")
 		fmt.Println("2. Convert binary to decimal")
 		fmt.Println("3. convert decimal to binary and hexidecimal")
@@ -71,15 +71,15 @@ func main() {
 			fmt.Println(decimalTobinAndHex(input))
 			fmt.Println("\n")
 		case "4":
-			fmt.Println("==== Welcome to my Augoboss help center ====")
+			fmt.Println("==== Welcome to Augoboss Base converter help center ====")
 			fmt.Println("1. Press any key to continue after choosing my program to run")
 			fmt.Println("2. choose an operator for your desired result")
 			fmt.Println("3. type your desired input")
-			fmt.Println("Enjoy Augoboss CLI tool converter....")
+			fmt.Println("Enjoy Augoboss Base converter....")
 			fmt.Println("\n")
 		case "5":
 			fmt.Println("\n")
-			fmt.Println("==== THANK YOU for using Augoboss CLI tool ====")
+			fmt.Println("==== THANK YOU for using Augoboss Base converter ====")
 			fmt.Println("\n")
 			return
 		default:
