@@ -9,7 +9,8 @@ func main() {
 
 		var a, b int
 
-		fmt.Println("Choose number: ")
+		fmt.Println("===== Augoboss CLI Calculator =====")
+		fmt.Println("           Input Number: ")
 
 		fmt.Print("First input: ")
 		firstInput, err := fmt.Scanf("%v\n", &a)
@@ -61,7 +62,8 @@ func main() {
 			fmt.Println("NOTE: in division, you can not divide any number by 0")
 			fmt.Println("4. select Exit which is indicated in number (6) to exit out of the program")
 		case "6":
-			fmt.Println("Thank you for using Augoboss calculator")
+			fmt.Println("     ==== Hope To See You Again ====")
+			fmt.Println("Thank you for using Augoboss CLI Calculator")
 			return
 		default:
 			fmt.Println("Out of range. Try again")
